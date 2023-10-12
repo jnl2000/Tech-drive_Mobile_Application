@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context=".AddRepaire"
+    android:background="@drawable/fourbg">
+
+
+    <TextView
+        android:id="@+id/textRView"
+        android:layout_width="297dp"
+        android:layout_height="64dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="Add your vehicle Repair details"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/yellow"
+        android:background="@color/purple_700"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Vehicle Number"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/txtRvehiclenumber"
+                android:layout_width="232dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="Enter Vehicle Number" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Vehicle Type"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/txtRvehicletype"
+                android:layout_width="232dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="Enter Vehicle Type" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:text="Repair Date"
+                android:textColor="@color/black"
+                android:padding="10dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editRTextDate"
+                android:layout_width="220dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:ems="10"
+                android:hint="Enter Rapair Date"
+                android:inputType="date"
+                />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Next check Repair Date"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/txtnextrepair"
+                android:layout_width="232dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="Enter Next Repair Date" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="What is Repaire"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/txtRwht"
+                android:layout_width="232dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="Enter What is Rapair" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Item of Repaire"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/txtRitem"
+                android:layout_width="232dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="Enter Item of Rapair" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Repaire Price"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/txtRprice"
+                android:layout_width="232dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="Enter Repair Price" />
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/btnRadd"
+        android:layout_width="222dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Add Details" />
+
+    <Button
+        android:id="@+id/btnRdelete"
+        android:layout_width="226dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Delete Details" />
+
+    <Button
+        android:id="@+id/btnRView"
+        android:layout_width="219dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="View Your Maintain Details" />
+
+</LinearLayout>

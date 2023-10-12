@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context=".AddVehicle"
+    android:background="@drawable/fourbg">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="280dp"
+        android:layout_height="47dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/red"
+        android:text="Add your vehicle"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/yellow"
+        android:textSize="25dp"
+        android:textStyle="bold"
+
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Vehicle Number"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/txtvehiclenumber"
+                android:layout_width="232dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="Enter Vehicle Number" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Vehicle Type"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/txtvehicletype"
+                android:layout_width="232dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="Enter Vehicle Type" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Vehicle Model"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/txtvehiclemodel"
+                android:layout_width="232dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="Enter Vehicle Model" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Chassis Number"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/txtchassisnumber"
+                android:layout_width="232dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="Enter chassis Number" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Engine Number"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/txtenginenumber"
+                android:layout_width="232dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="Enter Engine Number" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Fuel Type"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/txtfueltype"
+                android:layout_width="232dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="Enter Fuel Type" />
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/btnadd"
+        android:layout_width="215dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:text="Add" />
+
+    <Button
+        android:id="@+id/btndelete"
+        android:layout_width="224dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:text="Delete" />
+
+    <Button
+        android:id="@+id/btnView"
+        android:layout_width="209dp"
+        android:layout_height="59dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:text="View Your vehicles" />
+
+</LinearLayout>

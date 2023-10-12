@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/firstbg">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="234dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:backgroundTint="@color/yellow"
+        android:onClick="onClickViewVehicle"
+        android:text="Vehicle"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="267dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnMaintain"
+        android:layout_width="239dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="50dp"
+        android:text="MAINTAINANCE"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="372dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="242dp"
+        android:layout_height="47dp"
+        android:text="REPAIRS"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="488dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:backgroundTint="@color/green"/>
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="253dp"
+        android:layout_height="wrap_content"
+        android:text="Fuel and  Milage"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/yellow"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="253dp"
+        android:layout_height="wrap_content"
+        android:text="Driving Tips"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/purple_200"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+</LinearLayout>

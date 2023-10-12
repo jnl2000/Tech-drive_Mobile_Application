@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context=".AddMaintain"
+    android:background="@drawable/fourbg">
+
+
+    <TextView
+        android:id="@+id/textMView"
+        android:layout_width="297dp"
+        android:layout_height="64dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="Add your vehicle Maintain details"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:background="@color/purple_700"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Vehicle Number"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/txtMvehiclenumber"
+                android:layout_width="232dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="Enter Vehicle Number" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Vehicle Type"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/txtMvehicletype"
+                android:layout_width="232dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="Enter Vehicle Type" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:text="Maintained Date"
+                android:textColor="@color/black"
+                android:padding="10dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editMTextDate"
+                android:layout_width="220dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:ems="10"
+                android:hint="Enter Maintained Date"
+                android:inputType="date"
+                />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Next Maintain Date"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/txtnextmaintain"
+                android:layout_width="232dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="Enter Next Maintain Date" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="What is Maintain"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/txtMwht"
+                android:layout_width="232dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="Enter What is maintain" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Item of Maintain"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/txtMitem"
+                android:layout_width="232dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="Enter Item of Maintain" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Maintained Price"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/txtMprice"
+                android:layout_width="232dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="Enter Maintained Price" />
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/btnMadd"
+        android:layout_width="222dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Add Details" />
+
+    <Button
+        android:id="@+id/btnMdelete"
+        android:layout_width="226dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Delete Details" />
+
+    <Button
+        android:id="@+id/btnMView"
+        android:layout_width="219dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="View Your Maintain Details" />
+
+</LinearLayout>

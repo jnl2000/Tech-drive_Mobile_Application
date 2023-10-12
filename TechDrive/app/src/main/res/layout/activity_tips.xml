@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".Signup"
+    android:background="@drawable/fvbg"
+    >
+
+
+    <TextView
+        android:id="@+id/txttopic"
+        android:layout_width="312dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/curve_btn"
+        android:text="Follow Drive Tips"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="282dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txttopic"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="10dp"
+        android:text="1.OBEY ALL TRAFFIC RULES"
+        android:textColor="@color/yellow"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:background="@color/purple_200"
+        />
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="177dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="35dp"
+        android:text="2.SLOW DOWN"
+        android:textColor="@color/yellow"
+        android:textSize="20dp"
+        android:background="@color/purple_200"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/txt3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3. KEEP YOUR CAR IN GOOD RUNNING SHAPE"
+        android:textSize="20dp"
+        android:layout_below="@+id/txt2"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:background="@color/purple_200"
+        android:textColor="@color/yellow"
+        />
+
+    <TextView
+        android:id="@+id/txt4"
+        android:layout_width="262dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt3"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="35dp"
+        android:background="@color/purple_200"
+        android:text="4.WEAR YOUR SEAT BELT"
+        android:textColor="@color/yellow"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt5"
+        android:layout_width="242dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt4"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="35dp"
+        android:text="5. AVOID DISTRACTIONS"
+        android:textColor="@color/yellow"
+        android:background="@color/purple_200"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="6 DON’T DRIVE UNDER THE INFLUENCE"
+        android:textSize="20dp"
+        android:layout_below="@+id/txt5"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:background="@color/purple_200"
+        android:textColor="@color/yellow"
+        />
+
+</RelativeLayout>

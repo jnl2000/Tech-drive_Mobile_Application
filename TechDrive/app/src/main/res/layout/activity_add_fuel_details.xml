@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context=".AddFuelDetails"
+    android:background="@drawable/fourbg">
+
+    <TextView
+        android:id="@+id/textFView"
+        android:layout_width="279dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/white"
+        android:text="Add your vehicle Fuel Details"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold"
+
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Vehicle Number"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/txtFvehiclenumber"
+                android:layout_width="232dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="Enter Vehicle Number" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Vehicle Type"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/txtFvehicletype"
+                android:layout_width="232dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="Enter Vehicle Type" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Fuel Type"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/txtFFtype"
+                android:layout_width="232dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="Enter Fuel Type">
+
+            </EditText>
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Date Of Fuel"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/txtFdate"
+                android:layout_width="232dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="Enter Date Of Fuel" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Milage Of Filling Time"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/txtFillingtime"
+                android:layout_width="232dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="Enter Milage" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="How far can a liter go"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/txtltergo"
+                android:layout_width="232dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="Enter per liter Distance" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Average Of Distance Traveled"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/txtavgdis"
+                android:layout_width="232dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="Enter Avg Of Distance" />
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/btnFadd"
+        android:layout_width="215dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:text="Add" />
+
+    <Button
+        android:id="@+id/btnFdelete"
+        android:layout_width="209dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:text="Delete" />
+
+    <Button
+        android:id="@+id/btnFView"
+        android:layout_width="209dp"
+        android:layout_height="59dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:text="View Your vehicles" />
+
+</LinearLayout>
